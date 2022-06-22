@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.navbar{
+    background-color: #017E7E;
+}
+.navbar-brand{
+    padding-left: 30px;
+}
+.nav-item{
+    font-family: Roboto,sans-serif!important;
+    font-size: 1.3rem;
+    /* text-align: center;
+    justify-content: center; */
+}
+#register{
+    border: 2px solid #fff;
+text-transform: uppercase;
+    color: #fff!important;
+    padding: 9px 25px!important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600!important;
+    line-height: 1.5!important;
+    text-align: center;
+    display: block;
+}
+.steps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.hello{
+    display : grid;
+}
